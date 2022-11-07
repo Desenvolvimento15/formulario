@@ -14,8 +14,8 @@
    
 <main class="root-xiaomi-home">
     
-    <h1 style="color: #ff6900; text-align: center; margin-top: 10rem;">Brinde Xiaomi</h1>
-    
+    <h1 style="color: #ff6900; text-align: center; margin-top: 10rem;">Seja Bem-vindo(a)</h1>
+    <h1 style="color: #000; text-align: center;">Como resgatar seu brinde Xiaomi</h1>
     <div class="login-box">
        
     <form>  
@@ -25,17 +25,104 @@
           <label>Número de Serie</label>
         </div>
        
-        <a href="./formulario.html">
+        <a href="#formulario" class="btn">
          
-          ENVIAR
+          Enviar
         </a>
       </form>
      
     </div>
     <img src="./01.gif" alt="Computer man" style="margin-left: auto; margin-right: auto; display: block; margin-top: 28rem; width: 18rem;">
+
+<!--                                                ------>
+<div class="root-xiaomi-formulario">
+    <form class="wrapper " id="formulario">
+
+      <div class="title">
+        Formulário de Brinde
+      </div>
+
+      <div class="form">
+       <div class="inputfield">
+          <label>Nome Completo</label>
+          <input type="text" class="input" required>
+       </div>  
+
+       <div class="inputfield" >
+        <label>CPF</label>
+        <input type="text" class="input" maxlength="14">
+        
+       </div>  
+       
+       <div class="inputfield">
+        <label>Telefone</label>
+        <input type="tel" id="phone" name="phone" class="input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+       </div> 
+
+      <div class="inputfield">
+        <label>E-mail</label>
+        <input type="text" class="input"  pattern=".+@globex\.com" size="30" id="email" required>
+      </div> 
+
+      <div class="inputfield">
+        <label>CEP</label>
+        <input type="text" class="input" name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value)" required;>
+      </div>
+
+     <div class="inputfield">
+        <label>Endereço</label>
+        <input type="text" class="input" name="rua" type="text" id="rua" size="60" required>
+      </div> 
+
+      <div class="inputfield">
+        <label>Cidade</label>
+        <input type="text" class="input" name="cidade" type="text" id="cidade" size="40" required>
+      </div> 
+
+    <div class="inputfield">
+      <label>Estado</label>
+      <input type="text" class="input" name="uf" type="text" id="uf" size="2">
+    </div> 
+
+    <div class="inputfield">
+      <label>Bairro</label>
+      <input type="text" class="input" name="bairro" type="text" id="bairro" size="40">
+    </div> 
+
+    <div class="inputfield">
+      <label>Número</label>
+      <input type="text" class="input" name="bairro" type="text" id="bairro" size="40">
+    </div> 
+      
+    <div class="inputfield">
+      <label for="avatar">Anexar a Nota Fiscal do Produto</label>
+      <input type="file" id="avatar" name="avatar" accept="image/*,.pdf" class="input">
+    </div>
+
+    <div class="inputfield terms">
+        <label class="check">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <p>Concordo com os <a href="./termos.html" target="_blank">termos e condições</a></p>
+    </div> 
+
+    <div class="inputfield">
+      <input type="submit" value="Enviar" class="btn">
+    </div>
+
+
+</form>
+</div>
+
+
+  
  
 </main>
-
+<footer>
+  <p>IZU COMERCIO DE ELETRONICOS LTDA | CNPJ 34.744.895/0003-52</p>
+  <p>Copyright 2017 DL| Todos os Direitos Reservados</p>
+</footer>
 
 </body>
 </html>
