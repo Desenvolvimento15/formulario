@@ -260,10 +260,10 @@
   background: #ffffff;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #ff6900,
-              0 0 25px #ff6900,
-              0 0 50px #ff6900,
-              0 0 100px #ff6900;
+  box-shadow: 0 0 5px #ffffff,
+              0 0 25px #ffffff,
+              0 0 50px #ffffff,
+              0 0 100px #ffffff;
 }
 
 .login-box a span {
