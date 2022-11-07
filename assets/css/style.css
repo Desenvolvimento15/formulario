@@ -12,14 +12,11 @@
 .f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
 
 .root-xiaomi-home{background: #ffffff;}
-.root-xiaomi-formulario{background: #ff6900}
-
+.root-xiaomi-formulario{background: #ff6900; padding: 1rem;}
 
 body{
-  overflow-y: hidden;
-  overflow-x: hidden; 
+  overflow: hidden;
 }
-
 
 .wrapper{
   max-width: 500px;
@@ -188,9 +185,19 @@ body{
 }
 
 
-
-
-
+.btn{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: block;
+}
 
 .login-box {
   position: absolute;
@@ -251,4 +258,5 @@ body{
 .text-title{
   margin-bottom: 1rem;
   color: #fff;
+  text-align: center;
 }

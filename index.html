@@ -6,35 +6,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+  
     <title>Bem-vindo</title>
 
 </head>
+
 <body>
    
-<main class="root-xiaomi-home">
+<main>
     
+  <div class="root-xiaomi-home">
+   
     <h1 style="color: #ff6900; text-align: center; margin-top: 10rem;">Seja Bem-vindo(a)</h1>
     <h1 style="color: #000; text-align: center;">Como resgatar seu brinde Xiaomi</h1>
+
     <div class="login-box">
        
-    <form>  
+      <form>  
+
         <h4 class="text-title">Por favor inserir o número de serie</h4>
+
         <div class="user-box">
           <input type="text" name="" required="">
           <label>Número de Serie</label>
         </div>
        
-        <a href="#formulario" class="btn">
-         
-          Enviar
-        </a>
+        <a href="#formulario" class="btn">Enviar</a>
       </form>
      
     </div>
-    <img src="./01.gif" alt="Computer man" style="margin-left: auto; margin-right: auto; display: block; margin-top: 28rem; width: 18rem;">
+      <img src="./assets/media/01.gif" alt="Computer man" style="margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 26rem;
+      width: 24rem;
+      margin-bottom: 4rem;">
+  </div>
 
-<!--                                                ------>
+
+<!-------                 F O R M U L A R I O                               ------>
+
+
 <div class="root-xiaomi-formulario">
     <form class="wrapper " id="formulario">
 
@@ -107,22 +121,38 @@
         <p>Concordo com os <a href="./termos.html" target="_blank">termos e condições</a></p>
     </div> 
 
-    <div class="inputfield">
-      <input type="submit" value="Enviar" class="btn">
-    </div>
+    <a href="#confirme" class="btn">Enviar</a>
 
 
 </form>
 </div>
 
+<div class="root-xiaomi-home" id="confirme">
+<h1 style="color: #137752; text-align: center; margin-top: 10rem;">Pedido Confirmado</h1>
+<h1 style="color: #000; text-align: center;">Seu pedido foi realizado com sucesso.</h1>
+<p>
+<span style="color: #137752; font-size: 0.7rem">Em breve você receberá um e-mail no endereço&nbsp;
+<strong id="email"></strong>&nbsp; com todos os detalhes do pedido.</span>
+</p>
 
-  
- 
-</main>
+<img src="./assets/media/02.gif" alt="Computer man" style="margin-left: auto; margin-right: auto; display: block;">
+</div>
+
+
+
+
+
+
+
+
+
 <footer>
   <p>IZU COMERCIO DE ELETRONICOS LTDA | CNPJ 34.744.895/0003-52</p>
   <p>Copyright 2017 DL| Todos os Direitos Reservados</p>
 </footer>
+ 
+</main>
 
+<script  type="" src="./assets/js/main.js"></script>
 </body>
 </html>
