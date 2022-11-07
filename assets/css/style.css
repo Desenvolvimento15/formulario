@@ -1,9 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'CamphorProXiaoMi-Regular', sans-serif;
-}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'CamphorProXiaoMi-Regular', sans-serif;}
 
 @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
 @font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
@@ -255,4 +250,19 @@
   margin-bottom: 1rem;
   color: #fff;
   text-align: center;
+}
+
+.footer-xiaomi{
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+}
+
+.grid-xiaomi{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
