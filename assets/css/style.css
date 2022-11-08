@@ -1,5 +1,11 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: 'CamphorProXiaoMi-Regular', sans-serif;}
 
+:root{
+  --background-orange: #ff6900;
+  --background-white: #fff;
+  
+}
+
 @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
 @font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
 
@@ -9,11 +15,11 @@
 .root-xiaomi-home{background: #ffffff;}
 .root-xiaomi-formulario{background: #ff6900; padding: 1rem;}
 
-
+body{
+  overflow: hidden;
+}
 @media screen and (min-width:1024px){
-  body{
-    overflow: hidden;
-  }
+
 
   .btn{
     background-color: #4CAF50;
@@ -290,11 +296,7 @@
 
 }
 
-@media (max-width:768px) {
-
-  body{
-    overflow: hidden;
-  }
+@media screen and (min-width:0px) and (max-width:768px) {
 
   .wrapper .form .inputfield{
     flex-direction: column;
