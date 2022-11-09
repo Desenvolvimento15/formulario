@@ -144,7 +144,7 @@ if ($('#bodyConfirm').length) {
    }
 
 
-   let mensagem = document.querySelector(".mensagem") ;
+let mensagem = document.querySelector(".mensagem") ;
 
 // mostra a mensagem
 function showMessage(){   
@@ -153,4 +153,12 @@ function showMessage(){
 // esconde a mensagem
 function hideMessage(){
   mensagem.style.display = "none"; 
+}
+
+function myFunction() {
+    setTimeout(function(){ 
+
+      window.location.href = "https://www.example.com";
+
+}, 2000);
 }
