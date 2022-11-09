@@ -102,11 +102,7 @@
   text-align: center;
 }
 
-.footer-xiaomi{
-  text-align: center;
-  padding: 1rem;
-  color: #fff;
-}
+
 
 .grid-xiaomi{
     display: flex;
@@ -322,9 +318,13 @@
   */
   }
 
-
+  .footer-xiaomi{
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    background-color: #ff6900;
+  }
  
-
 
 
 
