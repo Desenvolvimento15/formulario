@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
+
+.f-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
+.f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
+
+body{
+    background-color: #ff6900;
+}
+
+.conteudo-xiaomi{
+    background-color: #fff;
+    width: 50rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow: scroll;
+    scroll-snap-align: start;
+}
+

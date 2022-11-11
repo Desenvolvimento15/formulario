@@ -3,6 +3,7 @@
 :root{
   --background-orange: #ff6900;
   --background-white: #fff;
+  --background-green:#4caf50;
   --title-white: #fff;
   --title-orange: #ff6900;
 }
@@ -21,7 +22,7 @@
   overflow: hidden;
 }*/
 
-a{
+.link-footer{
   text-decoration: none;
   color: #fff;
 }
@@ -331,23 +332,9 @@ a{
  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
-@media screen and (min-width:769px) and (max-width:1023px){
-
-}
+@media screen and (min-width:769px) and (max-width:1023px){}
 
 @media screen and (min-width:0px) and (max-width:768px) {
 
