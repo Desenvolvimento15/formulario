@@ -21,6 +21,10 @@
   overflow: hidden;
 }*/
 
+a{
+  text-decoration: none;
+  color: #fff;
+}
 @media screen and (min-width:1024px){
 
 
