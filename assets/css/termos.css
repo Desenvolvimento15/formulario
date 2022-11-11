@@ -24,3 +24,12 @@ body{
     scroll-snap-align: start;
 }
 
+h1{
+    text-decoration: underline;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+p{
+  padding: 1rem;
+}
