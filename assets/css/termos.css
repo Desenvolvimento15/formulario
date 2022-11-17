@@ -20,8 +20,6 @@ body{
     margin: auto;
     padding: 1rem;
     border-radius: 1rem;
-    overflow: scroll;
-    scroll-snap-align: start;
 }
 
 h1{
