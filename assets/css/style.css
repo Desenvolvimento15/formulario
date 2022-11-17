@@ -18,7 +18,9 @@
 .root-xiaomi-formulario{background: #ff6900}
 
 .link-footer{text-decoration: none; color: #fff;}
-
+body{
+  overflow: hidden;
+}
 @media screen and (min-width:1024px){
 
   .btn{
@@ -371,9 +373,6 @@
 
 @media screen and (max-width:768px) {
 
-.root-xiaomi{
-overflow: hidden;
-}
 
 .root-xiaomi-home {
 background: #ffffff;
