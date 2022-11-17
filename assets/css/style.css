@@ -17,16 +17,9 @@
 .root-xiaomi-home{background: #ffffff; width: 45rem; margin: auto; border-radius: 2rem; height: 46rem;}
 .root-xiaomi-formulario{background: #ff6900}
 
-
-
-.link-footer{
-  text-decoration: none;
-  color: #fff;
-}
-
+.link-footer{text-decoration: none; color: #fff;}
 
 @media screen and (min-width:1024px){
-
 
   .btn{
     background-color: #4CAF50;
@@ -111,7 +104,7 @@
 .grid-xiaomi{
   display: flex;
   flex-direction: column;
-  width: 42rem;
+  width: 19rem;
   margin: auto;
   margin-top: 3rem;
 }
@@ -376,325 +369,315 @@
   
 }
 
-@media screen and (min-width:0px) and (max-width:768px) {
+@media screen and (max-width:768px) {
 
-  .btn{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    display: block;
-  }
-
-.wrapper .form .inputfield{
-  flex-direction: column;
-  align-items: flex-start;
+.root-xiaomi{
+overflow: scroll;
 }
 
-.wrapper .form .inputfield label{
-  margin-bottom: 5px;
+.root-xiaomi-home {
+background: #ffffff;
+width: 22rem;
+margin: auto;
+height: 32rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+border-radius: 1rem;
 }
-.wrapper .form .inputfield.terms{
-  flex-direction: row;
+
+button {
+position: absolute;
+margin: auto;
+width: 1.3rem;
+height: 1.3rem;
+left: 17rem;
+right: 0;
+bottom: 0;
+top: -11rem;
+border-radius: 3rem;
+border-color: #fff;
+color: #fff;
+background: transparent;
+}
+
+.btn{
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+display: block;
 }
 
 .img{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 16rem;
+display: block;
+max-width: 100%;
 }
 
+.etiqueta{
+width: 20rem;
+}
+
+.text-title{
+margin-bottom: 1rem;
+color: #fff;
+text-align: center;
+}
+
+.grid-xiaomi{
+display: flex;
+max-width: 18rem;
+margin: auto;
+margin-top: 3rem;
+flex-wrap: wrap;
+align-content: stretch;
+justify-content: space-around;
+align-items: stretch;
+flex-direction: column;
+}
 
 .login-box {
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  width: 346px;
-  padding: 40px;
-  transform: translate(-50%, -50%);
-  background: #ff6900;
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
-  border-radius: 10px;
+position: absolute;
+top: 40%;
+left: 50%;
+width: 346px;
+padding: 40px;
+transform: translate(-50%, -50%);
+background: #ff6900;
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+border-radius: 10px;
 }
 
-
-
-
-
 .login-box h2 {
-  margin: 0 0 30px;
-  padding: 0;
-  color: #fff;
-  text-align: center;
+margin: 0 0 30px;
+padding: 0;
+color: #fff;
+text-align: center;
 }
 
 .login-box .user-box {
-  position: relative;
+position: relative;
 }
 
 .login-box .user-box input {
-  width: 100%;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #ffffff;
-  margin-bottom: 30px;
-  border: none;
-  border-bottom: 1px solid #ffffff;
-  outline: none;
-  background: transparent;
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: #ffffff;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #ffffff;
+outline: none;
+background: transparent;
 }
 
 .login-box .user-box label {
-  position: absolute;
-  top:0;
-  left: 0;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #ffffff;
-  pointer-events: none;
-  transition: .5s;
+position: absolute;
+top:0;
+left: 0;
+padding: 10px 0;
+font-size: 16px;
+color: #ffffff;
+pointer-events: none;
+transition: .5s;
 }
 
 .login-box .user-box input:focus ~ label,
 .login-box .user-box input:valid ~ label {
-  top: -20px;
-  left: 0;
-  color: #ffffff;
-  font-size: 12px;
+top: -20px;
+left: 0;
+color: #ffffff;
+font-size: 12px;
 }
-
-.text-title{
-  margin-bottom: 1rem;
-  color: #fff;
-  text-align: center;
-}
-
-
-
-.grid-xiaomi{
-  display: flex;
-  flex-direction: column;
-  width: 24rem;
-  margin: auto;
-  margin-top: 3rem;
-}
-
-
-
-
-
 
 .wrapper{
-  max-width: 500px;
-  width: 100%;
-  background: #fff;
-  margin: 50px auto;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
-  padding: 30px;
-  border-radius: 1rem;
+max-width: 500px;
+width: 100%;
+background: #fff;
+margin: 50px auto;
+box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+padding: 30px;
+border-radius: 1rem;
 }
 
 .wrapper .title{
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  color: #ff6900;
-  text-transform: uppercase;
-  text-align: center;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 25px;
+color: #ff6900;
+text-transform: uppercase;
+text-align: center;
 }
 
 .wrapper .form{
-  width: 100%;
+width: 100%;
 }
 
 .wrapper .form .inputfield{
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
 }
 
 .wrapper .form .inputfield label{
-    width: 200px;
-    color: #757575;
-    margin-right: 10px;
-  font-size: 14px;
+width: 200px;
+color: #757575;
+margin-right: 10px;
+font-size: 14px;
 }
 
 .wrapper .form .inputfield .input,
 .wrapper .form .inputfield .textarea{
-  width: 100%;
-  outline: none;
-  border: 1px solid #d5dbd9;
-  font-size: 15px;
-  padding: 8px 10px;
-  border-radius: 9px;
-  transition: all 0.3s ease;
+width: 100%;
+outline: none;
+border: 1px solid #d5dbd9;
+font-size: 15px;
+padding: 8px 10px;
+border-radius: 9px;
+transition: all 0.3s ease;
 }
 
 .wrapper .form .inputfield .textarea{
-  width: 100%;
-  height: 125px;
-  resize: none;
+width: 100%;
+height: 125px;
+resize: none;
 }
 
 .wrapper .form .inputfield .custom_select{
-  position: relative;
-  width: 100%;
-  height: 37px;
+position: relative;
+width: 100%;
+height: 37px;
 }
 
 .wrapper .form .inputfield .custom_select:before{
-  content: "";
-  position: absolute;
-  top: 12px;
-  right: 10px;
-  border: 8px solid;
-  border-color: #d5dbd9 transparent transparent transparent;
-  pointer-events: none;
+content: "";
+position: absolute;
+top: 12px;
+right: 10px;
+border: 8px solid;
+border-color: #d5dbd9 transparent transparent transparent;
+pointer-events: none;
 }
 
 .wrapper .form .inputfield .custom_select select{
-  -webkit-appearance: none;
-  -moz-appearance:   none;
-  appearance:        none;
-  outline: none;
-  width: 100%;
-  height: 100%;
-  border: 0px;
-  padding: 8px 10px;
-  font-size: 15px;
-  border: 1px solid #d5dbd9;
-  border-radius: 3px;
+-webkit-appearance: none;
+-moz-appearance:   none;
+appearance:        none;
+outline: none;
+width: 100%;
+height: 100%;
+border: 0px;
+padding: 8px 10px;
+font-size: 15px;
+border: 1px solid #d5dbd9;
+border-radius: 3px;
 }
 
 .wrapper .form .inputfield .input:focus,
 .wrapper .form .inputfield .textarea:focus,
 .wrapper .form .inputfield .custom_select select:focus{
-  border: 1px solid #ff6900;
+border: 1px solid #ff6900;
 }
 
 .wrapper .form .inputfield p{
-    font-size: 14px;
-    color: #757575;
+font-size: 14px;
+color: #757575;
 }
 .wrapper .form .inputfield .check{
-  width: 15px;
-  height: 15px;
-  position: relative;
-  display: block;
-  cursor: pointer;
+width: 15px;
+height: 15px;
+position: relative;
+display: block;
+cursor: pointer;
 }
 .wrapper .form .inputfield .check input[type="checkbox"]{
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
 }
 .wrapper .form .inputfield .check .checkmark{
-  width: 15px;
-  height: 15px;
-  border: 1px solid #ff6900;
-  display: block;
-  position: relative;
+width: 15px;
+height: 15px;
+border: 1px solid #ff6900;
+display: block;
+position: relative;
 }
+
 .wrapper .form .inputfield .check .checkmark:before{
-  content: "";
-  position: absolute;
-  top: 1px;
-  left: 2px;
-  width: 5px;
-  height: 2px;
-  border: 2px solid;
-  border-color: transparent transparent #fff #fff;
-  transform: rotate(-45deg);
-  display: none;
+content: "";
+position: absolute;
+top: 1px;
+left: 2px;
+width: 5px;
+height: 2px;
+border: 2px solid;
+border-color: transparent transparent #fff #fff;
+transform: rotate(-45deg);
+display: none;
 }
+
 .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
-  background: #ff6900;
+background: #ff6900;
 }
 
 .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
-  display: block;
+display: block;
 }
 
 .wrapper .form .inputfield .btn{
-  width: 100%;
-  padding: 8px 10px;
-  font-size: 15px; 
-  border: 0px;
-  background:  #b3b3b3;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 3px;
-  outline: none;
+width: 100%;
+padding: 8px 10px;
+font-size: 15px; 
+border: 0px;
+background:  #b3b3b3;
+color: #fff;
+cursor: pointer;
+border-radius: 3px;
+outline: none;
 }
 
 .wrapper .form .inputfield .btn:hover{
-  background: #ff6900;
+background: #ff6900;
 }
 
 .wrapper .form .inputfield:last-child{
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
-
-button {
-  position: absolute;
-  margin: auto;
-  width: 1.3rem;
-  height: 1.3rem;
-  left: 17rem;
-  right: 0;
-  bottom: 0;
-  top: -11rem;
-  border-radius: 3rem;
-  border-color: #fff;
-  color: #fff;
-  background: transparent;
+.wrapper .form .inputfield{
+flex-direction: column;
+align-items: flex-start;
 }
 
+.wrapper .form .inputfield label{
+margin-bottom: 5px;
+}
+.wrapper .form .inputfield.terms{
+flex-direction: row;
+}
 
 /* Aqui a mensagem ja está com o display none para já começar escondida*/
 .mensagem{
-  display: none; 
+  display: none;
   position: absolute;
   top: 0%;
-  left: 0%;
-  right: 100%;
+  right: 0%;
   margin: auto;
-
-/*Caso queira, por exemplo que fique ao lado 
-é so mudar o top para 0 e o left ou o right setar com 100%
-  top:0;
-  left:100%;
-  right:0;
-  margin: auto;s
-  width:100px;
-  height:20px;
-  border:1px solid red;
-
-*/
 }
 
-.footer-xiaomi{
-  text-align: center;
-  padding: 1rem;
-  color: #fff;
-  background-color: #ff6900;
-}
+/* A Modal (background) */
 
-
-
-
-/* The Modal (background) */
 .modal {
 display: none; /* Hidden by default */
 position: fixed; /* Stay in place */
@@ -733,6 +716,12 @@ text-decoration: none;
 cursor: pointer;
 }
 
- 
+.footer-xiaomi{
+text-align: center;
+padding: 1rem;
+color: #fff;
+background-color: #ff6900;
+}
+
 
 }
