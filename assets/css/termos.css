@@ -8,7 +8,48 @@
 
 body{
 background-color: #ff6900;
+overflow: hidden;
 }
+
+.conteudo-xiaomi{
+background-color: #fff;
+width: 50rem;
+padding: 1rem;
+border-radius: 1rem;
+margin: 3rem auto;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+overflow-y: auto;
+overflow-x: hidden;
+box-sizing: border-box;
+
+}
+
+.scroll-text{
+overflow-y: auto;
+height: 851px;
+overflow-x: hidden;
+background-color: #fff;
+text-align: left;
+padding: 5px;
+box-sizing: border-box;
+font-family: 'MyriadPro-Regular';
+}
+
+h1{
+text-decoration: underline;
+padding: 1rem;
+font-size: 1.3rem;
+}
+
+h1.text{
+text-align: center;
+}
+
+p{
+padding: 1rem;
+}
+
+@media screen and (max-width: 769) {
 
 .conteudo-xiaomi{
 background-color: #fff;
@@ -17,7 +58,7 @@ margin: auto;
 padding: 1rem;
 border-radius: 1rem;
 margin: 3rem auto;
-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+box-shadow: 10px 10px 8px 10px #888888;
 }
 
 h1{
@@ -29,33 +70,9 @@ font-size: 1.3rem;
 h1.text{
     text-align: center;
 }
+
 p{
 padding: 1rem;
 }
-
-@media screen and (max-width: 769) {
-
-    .conteudo-xiaomi{
-        background-color: #fff;
-        width: 50rem;
-        margin: auto;
-        padding: 1rem;
-        border-radius: 1rem;
-        margin: 3rem auto;
-        box-shadow: 10px 10px 8px 10px #888888;
-        }
-        
-        h1{
-        text-decoration: underline;
-        padding: 1rem;
-        font-size: 1.3rem;
-        }
-        
-        h1.text{
-            text-align: center;
-        }
-        p{
-        padding: 1rem;
-        }
     
 }
